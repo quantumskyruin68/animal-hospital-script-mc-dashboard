@@ -1,0 +1,38 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1e2d"/>
+      <stop offset="50%" stop-color="#0f2b3a"/>
+      <stop offset="100%" stop-color="#0a1620"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#3ddad7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3ddad7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <g opacity="0.12" stroke="#ffffff" stroke-width="1.5" fill="none">
+    <circle cx="150" cy="70" r="60"/>
+    <circle cx="1080" cy="300" r="90"/>
+    <circle cx="1000" cy="60" r="40"/>
+    <line x1="60" y1="330" x2="260" y2="330"/>
+    <line x1="940" y1="40" x2="1140" y2="40"/>
+  </g>
+
+  <g opacity="0.15" fill="#ffffff">
+    <path d="M120 260 q20 -30 40 0 q10 -20 25 0 q-10 20 -25 20 q-10 0 -20 -10 q-10 10 -20 -10 z"/>
+    <path d="M1060 90 q15 -22 30 0 q8 -15 20 0 q-8 15 -20 15 q-8 0 -15 -8 q-7 8 -15 -7 z"/>
+  </g>
+
+  <text x="600" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="56.0" fill="#ffffff" font-weight="600">
+    <tspan x="600" dy="0">Animal Hospital Script</tspan>
+  </text>
+
+  <text x="600" y="210" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Dashboard for admins running an Animal Hospital script — manage patients, staff</tspan>
+    <tspan x="600" dy="30">shifts, and cash flow from on…</tspan>
+  </text>
+</svg>
